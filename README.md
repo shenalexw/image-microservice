@@ -13,7 +13,7 @@
 
 Image microservice that allows users to get the first image from the unsplash api.
 
-NOTE: Since this is a demo, the api can only handle 50 request every hour. Me mindful of how you are using this microservice!
+NOTE: Since this is a demo, the api can only handle 50 request every hour. Be mindful of how you are using this microservice!
 
 ---
 
