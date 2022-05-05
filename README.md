@@ -24,6 +24,7 @@ NOTE: Since this is a demo, the api can only handle 50 request every hour. Be mi
 
 ```
 git clone https://github.com/shenalexw/image-microservice.git
+cd image-microservice
 npm install
 npm start
 ```
