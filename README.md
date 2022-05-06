@@ -26,7 +26,6 @@ NOTE: Since this is a demo, the api can only handle 50 request every hour. Be mi
 git clone https://github.com/shenalexw/image-microservice.git
 cd image-microservice
 npm install
-npm start
 ```
 
 #### Set Up
@@ -39,7 +38,12 @@ UNSPLASH_API_KEY="INPUT_KEY_HERE"
 ```
 You may request the key from myself.
 
-
+#### Start Up
+```
+npm start
+```
+- The service will be hosted on http://localhost:3123/
+- Press ctrl+c to end hosting
 
 ## API Reference
 
