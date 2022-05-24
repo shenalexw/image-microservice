@@ -19,6 +19,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// use cors
+const cors = require("cors");
+app.use(
+  cors({
+    origin: "*"
+  }))
+
 app.use('/', indexRouter);
 app.use('/image', imageRouter);
 
